@@ -1,5 +1,5 @@
 usless_0 = 'y'
-while usless_0 == 'y':
+while usless_0 == 'y' or usless_0 == 'yes':
     print('WELCOME_TO_CALCULATOR','ENTER_NUMBER',sep='\n')
     x = float(input())
     print('\n','\n','\n','SELECT_OPERATION: + , - , * , / ')
