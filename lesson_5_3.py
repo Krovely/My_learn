@@ -5,9 +5,9 @@ for i in elements:
     if i not in string.punctuation:
         elements_0 += i
 el_words = elements_0.split()
-usless_0 = '#'
+res_el = '#'
 for i in el_words:
-    usless_0 += i.capitalize()
-if len(usless_0)>140:
-    usless_0 = usless_0[:140]
-print(usless_0)
+    res_el += i.capitalize()
+if len(res_el)>140:
+    res_el = usless_0[:140]
+print(res_el)
